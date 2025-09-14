@@ -20,7 +20,7 @@ POWERED_BY_USERNAME = os.getenv('POWERED_BY_USERNAME', '@Adult_Flux')
 
 # Load channels from environment variable
 CHANNELS_STR = os.getenv('CHANNELS', '{}').replace("'", '"')  # Replace single quotes with double quotes for JSON
-CHANNELS = json.loads(CHANNELS_STR)
+CHANNELS = -1002610407296
 
 # Enable logging
 logging.basicConfig(
