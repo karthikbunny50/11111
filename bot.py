@@ -14,8 +14,8 @@ import html
 load_dotenv()
 
 # Configuration
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-ADMIN_ID = int(os.getenv('ADMIN_ID'))
+BOT_TOKEN = "8496160642:AAHk8pBA8S9BqPhavNt54lf_UU16VHlNI6o"
+ADMIN_ID = 6316000882
 POWERED_BY_USERNAME = os.getenv('POWERED_BY_USERNAME', '@Adult_Flux')
 
 # Load channels from environment variable
